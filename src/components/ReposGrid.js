@@ -102,12 +102,14 @@ const Grid = styled.div`
   }
 
   .header-content {
-    justify-content: center;
+    justify-content: flex-start;
     height: 50px;
+    font-size: 20px;
   }
 
   .repo a {
     text-decoration: none;
+    font-weight: bolder;
   }
 
   .repo img {
